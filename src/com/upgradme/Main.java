@@ -2,31 +2,18 @@ package com.upgradme;
 
 import java.util.Scanner;
 
-import static com.upgradme.Patterns.pattern1;
+import static com.upgradme.Patterns.*;
 
 public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-        main.pattern();
         main.addNumbers();
-        pattern1();
-    }
 
-    /**
-     *
-     * *
-     * * *
-     * * * *
-     * * * * *
-     **/
-    private void pattern() {
-        for (int i = 1; i <= 5; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+        pattern1();
+        pattern2();
+        pattern3();
+        pattern4();
     }
 
     //Add Numbers
