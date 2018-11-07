@@ -2,12 +2,15 @@ package com.upgradme;
 
 import java.util.Scanner;
 
+import static com.upgradme.Patterns.pattern1;
+
 public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
         main.pattern();
         main.addNumbers();
+        pattern1();
     }
 
     /**
