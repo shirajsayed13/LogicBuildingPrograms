@@ -3,7 +3,6 @@ package com.upgradme;
 class Patterns {
 
     /**
-     *
      * *
      * * *
      * * * *
@@ -20,11 +19,12 @@ class Patterns {
     }
 
     /**
-     1
-     12
-     123
-     1234
-     12345*/
+     * 1
+     * 12
+     * 123
+     * 1234
+     * 12345
+     */
 
     static void pattern2() {
         for (int i = 1; i <= 5; i++) {
@@ -36,11 +36,12 @@ class Patterns {
     }
 
     /**
-     54321
-     5432
-     543
-     54
-     5*/
+     * 54321
+     * 5432
+     * 543
+     * 54
+     * 5
+     */
 
     static void pattern3() {
         for (int i = 1; i <= 5; i++) {
@@ -52,11 +53,12 @@ class Patterns {
     }
 
     /**
-    12345
-    1234
-    123
-    12
-    1*/
+     * 12345
+     * 1234
+     * 123
+     * 12
+     * 1
+     */
 
     static void pattern4() {
         for (int i = 1, r = 5; i <= 5; r--, i++) {
