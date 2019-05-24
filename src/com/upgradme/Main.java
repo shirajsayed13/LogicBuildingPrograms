@@ -7,7 +7,7 @@ import static com.upgradme.Patterns.*;
 
 public class Main {
 
-    private static int[] arr = {3, 5, -7, 9, 1, 2};
+    private static int[] arr = {34, 67, 5, 1111, -7, 9, 11, -1, 222};
 
     public static void main(String[] args) {
         Main main = new Main();
@@ -21,6 +21,10 @@ public class Main {
         //Two Number Sum Problem
         int[] result = TwoNumberSum.twoNumberSum(arr, 10);
         System.out.println(Arrays.toString(result));
+
+        //Three Largest Numbers
+        int[] res = ThreeLargestNumbers.findThreeLargestNumbers(arr);
+        System.out.println(Arrays.toString(res));
     }
 
     //Add Numbers
